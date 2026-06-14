@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Accept Convite</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./app.js" defer type="module"></script>
+  </head>
+  <body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.12.2/lottie.min.js"></script>
+
+    <div id="loading-overlay" class="loading-overlay">
+      <div id="lottie-container" class="lottie-container"></div>
+    </div>
+    <header>
+      <img src="./img/logo_family_sync.svg" alt="FamilySync Logo" />
+    </header>
+
+    <main>
+      <img src="./img/background1.svg" alt="Fundo" class="bg-blur" />
+
+      <div class="card">
+        <h1 id="familia"></h1>
+        <h2>Com sucesso!!</h2>
+        <button
+          onclick="window.location.href = 'https://familysync-tcc.vercel.app/'"
+        >
+          Ir para o Site
+        </button>
+      </div>
+    </main>
+  </body>
+</html>
