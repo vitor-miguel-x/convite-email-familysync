@@ -46,7 +46,7 @@ async function processarConvite() {
     const dadosFamilia = await responseFamilia.json();
 
     document.getElementById("familia").textContent =
-      `Você foi cadastrado na família ${dadosFamilia.Response.familia[0].nome}`;
+      `Você foi cadastrado na família: ${dadosFamilia.Response.familia[0].nome}`;
   } catch (error) {
     document.getElementById("familia").textContent =
       "Erro ao carregar os dados da família.";
